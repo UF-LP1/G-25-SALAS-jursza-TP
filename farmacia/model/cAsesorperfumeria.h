@@ -11,15 +11,15 @@ class cAsesorperfumeria: public cEmpleado {
 public: 
     
 
-void cAsesorPerfumeria(void string, void string, void string, void string);
+void cAsesorPerfumeria( string,  string,  string,  string);
     
 cProdcuto venderProducto();
     
 
-void llamarCliente(void cCliente);
+void llamarCliente( cCliente);
     
 
-cTicket facturarProducto(void cProducto);
+cTicket facturarProducto( cProducto);
     
 int entregarTicketCaja();
 protected: 

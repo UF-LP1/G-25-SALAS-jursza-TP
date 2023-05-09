@@ -6,7 +6,7 @@
 
 
 
-void cReceta::cReceta(void int, void eNecesidad, void cMedicamentos) {
+ cReceta::cReceta( int,  eNecesidad,  cMedicamentos) {
 
 }
 

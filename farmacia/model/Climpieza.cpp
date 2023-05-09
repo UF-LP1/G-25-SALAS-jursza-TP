@@ -5,7 +5,7 @@
 
 
 
-void Climpieza::cLimpieza(void string, void string, void int, void int, void float, void string) {
+void Climpieza::cLimpieza( string,  string,  int,  int,  float,  string) {
 
 }
 

@@ -11,17 +11,17 @@ class cfarmaceutico: public cEmpleado {
 public: 
     
 
-void cfarceutico(void cMedicamentos, void int, void int, void bool, void string, void string, void int, void string);
+void cfarceutico( cMedicamentos,  int,  int,  bool, void string,  string,  int,  string);
     
 const cmedicamento vendermedicamento();
     
 
-string aconsejarDosis(void cmedicamento);
+string aconsejarDosis( cmedicamento);
     
 const cmedicamento RecomendarMedicamento();
     
 
-void asignarMedicamentos(void cMedicamentos);
+void asignarMedicamentos( cMedicamentos);
 protected: 
     
 void cfarmaceutico();

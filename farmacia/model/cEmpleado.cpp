@@ -3,10 +3,10 @@
 #include "cEmpleado.h"
 
 cEmpleado(float dinero, string nombre, string apellido, string dni) {};
-void cEmpleado::cEmpleado(bool, void float, void string, void cProducto, void int, void int, void bool) {
+void cEmpleado::cEmpleado(bool,  float,  string,  cProducto,  int,  int,  bool) {
 
 }
-void cEmpleado::LlamarCliente(void Ccliente) {
+void cEmpleado::LlamarCliente( Ccliente) {
     return;
 }
 

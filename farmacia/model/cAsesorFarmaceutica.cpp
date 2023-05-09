@@ -7,12 +7,12 @@
 
 
 
-void cAsesorFarmaceutica::cAsesorFarmaceutica(string,  string, string, string) {
+ cAsesorFarmaceutica::cAsesorFarmaceutica(string,  string, string, string) {
 
 }
 
 
-void cAsesorFarmaceutica::LlamarCliente(void Ccliente) {
+void cAsesorFarmaceutica::LlamarCliente( Ccliente) {
     return;
 }
 
@@ -22,7 +22,7 @@ bool cAsesorFarmaceutica::verificarTurno() {
 }
 
 
-cMedicamento cAsesorFarmaceutica::analizarReceta() {
+ cMedicamento cAsesorFarmaceutica::analizarReceta() {
     return null;
 }
 

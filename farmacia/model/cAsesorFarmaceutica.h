@@ -17,7 +17,7 @@ public:
 
 void cAsesorFarmaceutica( string,  string,  string,  string);
 
-void LlamarCliente(void Ccliente);
+void LlamarCliente( Ccliente);
     
 bool verificarTurno();
     
@@ -30,5 +30,5 @@ protected:
     
 void cAsesorFarmaceutica();
 private: 
-    void asesorar; string;
+     asesorar; string;
 };

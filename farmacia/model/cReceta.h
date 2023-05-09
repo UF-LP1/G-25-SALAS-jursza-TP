@@ -7,7 +7,7 @@ class cReceta {
 public: 
     
 
-void cReceta(void int, void eNecesidad, void cMedicamentos);
+void cReceta( int,  eNecesidad,  cMedicamentos);
     
 int getMatriculaMedico();
 protected: 

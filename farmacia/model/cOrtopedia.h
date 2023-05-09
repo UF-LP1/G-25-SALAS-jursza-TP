@@ -11,14 +11,14 @@ class cOrtopedia: public cProductos {
 public: 
     
 
-void cOrtopedia(void strign, void float, void string, void string, void string, void bool);
+void cOrtopedia( strign,  float,  string,  string,  string,  bool);
     
 void preaparadoVenta();
     
 bool chaekearPreaparado();
     
 
-void asignarNecesidad(void eNecesidad);
+void asignarNecesidad( eNecesidad);
 protected: 
     
 void cOrtopedia();

@@ -11,13 +11,13 @@ class Cperfumeria: public cProductos {
 public: 
     
 
-void cPerfumeria(void string, void float, void string, void string, void eCosmeticos);
+void cPerfumeria( string,  float,  string,  string,  eCosmeticos);
     
 
-void setProductoPerfumeria(void Ecomestico);
+void setProductoPerfumeria( Ecomestico);
     
 
-void asignarNecesidad(void eNecesidad);
+void asignarNecesidad( eNecesidad);
 protected: 
     
 void Cperfumeria();

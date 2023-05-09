@@ -1,6 +1,6 @@
 #include "Cfarmacia.h"
 
-void Cfarmacia::cfarmacia(void string, void string, void string, void Enecesidad, void float, void cEmpleado, void int, void int, void bool, void string) {
+void Cfarmacia::cfarmacia( string,  string,  string,  Enecesidad,  float,  cEmpleado,  int,  int,  bool,  string) {
 
 }
  Cfarmacia::Cfarmacia(string nombre, string horarios, string telefono, string direccion, int cantActual, int cantTotal, eNecesidad, float capital, bool checkEliminar, ePedido)
@@ -11,7 +11,7 @@ void Cfarmacia::cfarmacia(void string, void string, void string, void Enecesidad
 {
 }
 
-cTicket Cfarmacia::entregarticket(void eNecesidad) {
+cTicket Cfarmacia::entregarticket( eNecesidad) {
     return null;
 }
 
@@ -31,12 +31,12 @@ void Cfarmacia::cerrarFarmacia() {
 }
 
 
-void Cfarmacia::agregarEmpleado(void cEmpleado) {
+void Cfarmacia::agregarEmpleado( cEmpleado) {
     return;
 }
 
 
-void Cfarmacia::eliminarEmpleado(void cEmpleado) {
+void Cfarmacia::eliminarEmpleado( cEmpleado) {
     return;
 }
 

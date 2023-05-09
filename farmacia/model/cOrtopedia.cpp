@@ -5,7 +5,7 @@
 
 
 
-void cOrtopedia::cOrtopedia(void strign, void float, void string, void string, void string, void bool) {
+void cOrtopedia::cOrtopedia( strign,  float,  string,  string,  string,  bool) {
 
 }
 
@@ -19,7 +19,7 @@ bool cOrtopedia::chaekearPreaparado() {
 }
 
 
-void cOrtopedia::asignarNecesidad(void eNecesidad) {
+void cOrtopedia::asignarNecesidad( eNecesidad) {
     return;
 }
 

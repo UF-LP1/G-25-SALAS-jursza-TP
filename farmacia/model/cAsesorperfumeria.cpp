@@ -7,7 +7,7 @@
 
 
 
-void cAsesorperfumeria::cAsesorPerfumeria(void string, void string, void string, void string) {
+ cAsesorperfumeria::cAsesorPerfumeria( string,  string,  string,  string) {
 
 }
 
@@ -17,12 +17,12 @@ cProdcuto cAsesorperfumeria::venderProducto() {
 }
 
 
-void cAsesorperfumeria::llamarCliente(void cCliente) {
+void cAsesorperfumeria::llamarCliente( cCliente) {
     return;
 }
 
 
-cTicket cAsesorperfumeria::facturarProducto(void cProducto) {
+void cTicket cAsesorperfumeria::facturarProducto( cProducto) {
     return null;
 }
 

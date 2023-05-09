@@ -10,7 +10,7 @@ class Climpieza: public cEmpleado {
 public: 
     
 
-void cLimpieza(void string, void string, void int, void int, void float, void string);
+void cLimpieza( string,  string,  int,  int,  float,  string);
     
 void horariotrabajo();
     

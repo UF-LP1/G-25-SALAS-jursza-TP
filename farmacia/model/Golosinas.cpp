@@ -6,12 +6,12 @@
 
 
 
-void Golosinas::Golosinas(void string, void float, void string) {
+ Golosinas::Golosinas( string,  float,  string) {
 
 }
 
 
-void Golosinas::asignarNecesidad(void eNecesidad) {
+void Golosinas::asignarNecesidad( eNecesidad) {
     return;
 }
 

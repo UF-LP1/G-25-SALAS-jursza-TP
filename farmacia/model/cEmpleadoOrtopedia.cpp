@@ -7,11 +7,11 @@
 
 
 
-void cEmpleadoOrtopedia::cEmpleadoOrtopedia(void float, void string, void string, void string, void string, void string) {
+void cEmpleadoOrtopedia::cEmpleadoOrtopedia( float,  string,  string,  string,  string,  string) {
 
 }
 
-void cEmpleadoOrtopedia::llamarCliente(void cCliente) {
+void cEmpleadoOrtopedia::llamarCliente( cCliente) {
     return;
 }
 
@@ -20,7 +20,7 @@ void cEmpleadoOrtopedia::asesorarArticuloTratamiento() {
 }
 
 
-cTicket cEmpleadoOrtopedia::facturarProductos(void cProdcutos) {
+cTicket cEmpleadoOrtopedia::facturarProductos( cProdcutos) {
     return null;
 }
 

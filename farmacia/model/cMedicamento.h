@@ -10,7 +10,7 @@ class cMedicamento: public cProductos {
 public: 
     
 
-void cMedicamentos(void string, void eMedicamentos);
+void cMedicamentos( string,  eMedicamentos);
     
 float getCosto();
     

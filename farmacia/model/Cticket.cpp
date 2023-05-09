@@ -6,22 +6,22 @@
 
 
 
-void Cticket::Cticket(void int, void eNecesidad, void int, void float, void eMedio) {
+ Cticket::Cticket( int,  eNecesidad,  int,  float,  eMedio) {
 
 }
 
 
-void Cticket::setNumero(void int) {
+void Cticket::setNumero( int) {
     return;
 }
 
 
-void Cticket::setMontoTotal(void float) {
+void Cticket::setMontoTotal( float) {
     return;
 }
 
 
-void Cticket::setMedio(void eMedio) {
+void Cticket::setMedio( eMedio) {
     return;
 }
 

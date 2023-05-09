@@ -11,14 +11,14 @@ class cEmpleadoOrtopedia: public cEmpleado {
 public: 
     
 
-void cEmpleadoOrtopedia(void float, void string, void string, void string, void string, void string);
+void cEmpleadoOrtopedia( float,  string,  string,  string,  string,  string);
     
 
-void llamarCliente(void cCliente);
+void llamarCliente( cCliente);
     
 void asesorarArticuloTratamiento();
 
-cTicket facturarProductos(void cProdcutos);
+cTicket facturarProductos( cProdcutos);
     
 int entregarTicketCaja();
 protected: 

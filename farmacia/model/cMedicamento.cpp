@@ -5,7 +5,7 @@
 
 
 
-void cMedicamento::cMedicamentos(void string, void eMedicamentos) {
+void cMedicamento::cMedicamentos( string,  eMedicamentos) {
 
 }
 

@@ -6,12 +6,12 @@
 
 
 
-void cajero::cajero(string, string, string, int) {
+ cajero::cajero(string, string, string, int) {
 
 }
 
 
-void cajero::facturarProducto(void cProducto) {
+void cajero::facturarProducto( cProducto) {
     return;
 }
 
@@ -21,7 +21,7 @@ bool cajero::verificarTurno() {
 }
 
 
-void cajero::LlamarCliente(void Ccliente) {
+void cajero::LlamarCliente( Ccliente) {
     return;
 }
 
@@ -37,7 +37,7 @@ void cajero::cobrar() {
 }
 
 
-void cajero::entregaTicketPago(void cticket) {
+void cajero::entregaTicketPago( cticket) {
     return;
 }
 

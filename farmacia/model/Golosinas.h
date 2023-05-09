@@ -11,9 +11,9 @@ class Golosinas: public cProductos {
 public: 
     
 
-void Golosinas(void string, void float, void string);
+void Golosinas( string,  float,  string);
 
-void asignarNecesidad(void eNecesidad);
+void asignarNecesidad( eNecesidad);
 protected: 
     
 void Golosinas();

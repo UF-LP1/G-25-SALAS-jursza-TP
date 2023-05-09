@@ -8,16 +8,16 @@ class Cticket {
 public: 
     
 
-void Cticket(void int, void eNecesidad, void int, void float, void eMedio);
+void Cticket( int,  eNecesidad,  int,  float,  eMedio);
     
 
-void setNumero(void int);
+void setNumero( int);
     
 
-void setMontoTotal(void float);
+void setMontoTotal( float);
     
 
-void setMedio(void eMedio);
+void setMedio( eMedio);
     
 int getNumero();
 protected: 

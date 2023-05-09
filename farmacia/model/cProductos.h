@@ -11,7 +11,7 @@ public:
 void cProductos( string,  float,  eCosmeticos, Etratamientos);
     
 
-void asignarNecesidad(void cNecesidad);
+void asignarNecesidad( cNecesidad);
 protected: 
     string nombre;
     float costo;

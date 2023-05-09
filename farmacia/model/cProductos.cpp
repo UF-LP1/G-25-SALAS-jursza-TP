@@ -6,11 +6,11 @@
 
 
 
-void cProductos::cProductos(void string, void float, void eCosmeticos, void Etratamientos) {
+void cProductos::cProductos( string,  float,  eCosmeticos,  Etratamientos) {
 
 }
 
 
-void cProductos::asignarNecesidad(void cNecesidad) {
+void cProductos::asignarNecesidad( cNecesidad) {
     return;
 }

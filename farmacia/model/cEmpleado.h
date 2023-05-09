@@ -16,10 +16,10 @@ public:
 	cEmpleado(float dinero, string nombre, string apellido, string dni) {};
 	~cEmpleado();
 
-void cEmpleado(void Cliente, void bool, void float, void string, void cProducto, void int, void int, void bool);
+void cEmpleado( Cliente,  bool,  float,  string,  cProducto,  int,  int,  bool);
     
 
-void LlamarCliente(void Ccliente);
+void LlamarCliente( Ccliente);
     
 cTicket realizarTicket();
     
@@ -27,24 +27,24 @@ void comenzarTrabajo();
     
 void terminarTrabajo();
 
-void asignarListar(void cProducto);
+void asignarListar( cProducto);
     
 
-void eliminarProductos(void cProductos);
+void eliminarProductos( cProductos);
     
 bool checKearStock();
     
 
-void agregarProductos(void cProdcuto);
+void agregarProductos( cProdcuto);
     
 
-void buscarProductos(void cProduco);
+void buscarProductos( cProduco);
     
 
-void avisarStock(void cPrducto);
+void avisarStock( cPrducto);
     
 
-void asignarCliente(void cCliente);
+void asignarCliente( cCliente);
 protected: 
     bool disponibilidad;
     float dinero;

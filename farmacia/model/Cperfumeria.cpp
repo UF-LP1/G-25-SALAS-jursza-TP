@@ -6,17 +6,17 @@
 
 
 
-void Cperfumeria::cPerfumeria(void string, void float, void string, void string, void eCosmeticos) {
+void Cperfumeria::cPerfumeria( string,  float,  string,  string,  eCosmeticos) {
 
 }
 
 
-void Cperfumeria::setProductoPerfumeria(void Ecomestico) {
+void Cperfumeria::setProductoPerfumeria( Ecomestico) {
     return;
 }
 
 
-void Cperfumeria::asignarNecesidad(void eNecesidad) {
+void Cperfumeria::asignarNecesidad( eNecesidad) {
     return;
 }
 

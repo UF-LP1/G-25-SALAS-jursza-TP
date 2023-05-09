@@ -7,7 +7,7 @@
 
 
 
-void cfarmaceutico::cfarceutico(void cMedicamentos, void int, void int, void bool, void string, void string, void int, void string) {
+void cfarmaceutico::cfarceutico( cMedicamentos,  int,  int,  bool,  string,  string,  int,  string) {
 
 }
 
@@ -17,7 +17,7 @@ const cmedicamento cfarmaceutico::vendermedicamento() {
 }
 
 
-string cfarmaceutico::aconsejarDosis(void cmedicamento) {
+string cfarmaceutico::aconsejarDosis( cmedicamento) {
     return "";
 }
 
@@ -27,7 +27,7 @@ const cmedicamento cfarmaceutico::RecomendarMedicamento() {
 }
 
 
-void cfarmaceutico::asignarMedicamentos(void cMedicamentos) {
+void cfarmaceutico::asignarMedicamentos( cMedicamentos) {
     return;
 }
 
