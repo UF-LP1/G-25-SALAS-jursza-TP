@@ -3,31 +3,21 @@
 
 #ifndef _CTICKET_H
 #define _CTICKET_H
-
+#define "eNums.h"
 class Cticket {
-public: 
     
 
-void Cticket( int,  eNecesidad,  int,  float,  eMedio);
     
 
-void setNumero( int);
     
 
-void setMontoTotal( float);
     
 
-void setMedio( eMedio);
     
-int getNumero();
-protected: 
     
-void cticket();
 private: 
-    int numero;
-    eNecesidad razon;
-    int generarNumero;
-    float MontoTotal;
+    unsigned int numero;
+    eNecesidad necesidad;
     eMedio medioPago;
 };
 

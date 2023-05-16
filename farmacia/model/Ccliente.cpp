@@ -22,15 +22,13 @@ string Ccliente::get_dni() {
 string Ccliente::get_email() {
 	return this->email;
 }
-unsigned int Ccliente::presupuesto (Cliente, ClienteA)
-{
-	int i;
 
 
 
 
 
-}
+
+
 
 
 /*

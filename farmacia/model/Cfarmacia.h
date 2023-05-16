@@ -2,21 +2,21 @@
 #define _CFARMACIA_H
 #include <string>
 #include <iostream>
+#include "eNums.h"
+#include "Ccliente.h"
 using namespace std;
 
 class Cfarmacia {
 private: //atributos
 	string nombre, horarios, telefono, direccion;
-	int cantActual, cantTotal;
-	enum eNecesidad;
 	float capital;
-	bool checkEliminar;
-	enum ePedido;
+
+	cCliente* cliente;
 public:
-	Cfarmacia(string nombre, string horarios, string telefono, string direccion, int cantActual, int cantTotal, enum eNecesidad, float capital, bool checkEliminar, enum ePedido); //constroctur
+	Cfarmacia(string nombre, string horarios, string telefono, string direccion,float capital_); //constructor
 	~Cfarmacia();
 	// get y set
-	cTicket entregarticket(eNecesidad);   
+	
 	void pagarEmpleados();   
 	void abrirFarmacia();  
 	void cerrarFarmacia();
@@ -24,7 +24,7 @@ public:
 	void eliminarEmpleado(cEmpleado);
 	void pagarEmpleado();
 	void juntarGanancias();
-	void cfarmacia();
+	*/
 
 };
 

@@ -3,32 +3,24 @@
 
 #ifndef _CFARMACEUTICO_H
 #define _CFARMACEUTICO_H
+#include <eNums.h>
+#include <cEmpleado.h>
+#include <Ccliente.h>
+#include <cMedicamento.h>
 
-#include "cEmpleado.h"
 
-
-class cfarmaceutico: public cEmpleado {
+class cfarmaceutico: public cEmpleado {// arrelgar clase con herencia de emplado a farmaceutico
 public: 
     
 
-void cfarceutico( cMedicamentos,  int,  int,  bool, void string,  string,  int,  string);
+void cfarmaceutico(  int,  string,  string,  string);
     
-const cmedicamento vendermedicamento();
     
-
-string aconsejarDosis( cmedicamento);
-    
-const cmedicamento RecomendarMedicamento();
-    
-
-void asignarMedicamentos( cMedicamentos);
 protected: 
     
-void cfarmaceutico();
+
 private: 
-    int canActual;
-    int cantotal;
-    bool chekEliminar;
+
     string nombre;
     string apellido;
     int matricula;

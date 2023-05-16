@@ -12,25 +12,17 @@ void cfarmaceutico::cfarceutico( cMedicamentos,  int,  int,  bool,  string,  str
 }
 
 
-const cmedicamento cfarmaceutico::vendermedicamento() {
-    return null;
+void cFarmaceutico::revisarReceta()
+{
 }
 
 
-string cfarmaceutico::aconsejarDosis( cmedicamento) {
-    return "";
+}
+
+cMedicamento* cFarmaceutico::buscarMedicamento(string nombre)
+{
+            return &val;
 }
 
 
-const cmedicamento cfarmaceutico::RecomendarMedicamento() {
-    return null;
-}
 
-
-void cfarmaceutico::asignarMedicamentos( cMedicamentos) {
-    return;
-}
-
-void cfarmaceutico::cfarmaceutico() {
-
-}

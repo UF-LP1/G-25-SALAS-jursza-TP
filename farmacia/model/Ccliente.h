@@ -7,6 +7,7 @@ using namespace std;
 #include <cReceta.h>
 
 
+
 class Ccliente {
 private:
 	const string dni, nombre, obraSocial, email;
@@ -14,12 +15,9 @@ private:
 	enum ePedido;
 	float dinero; 
 	string ticketCaja;
-	enum eMedio; 
-	float MontoTotal;
-	enum eEntrega; 
 
 public: 
-	Ccliente(string Dni, string nombre, string obraSocial, string  email, enum eNecesiad, enum ePedido, float dinero, string ticketCaja, enum eMedio, float MontoTotal, enum eEntrega) {};
+	Ccliente(string Dni, string nombre, string obraSocial, string  email, float dinero, eNecesidad necesidad, eMedio medioPago, ePedido pedido) {
 	~Ccliente();
 	const cticket EntregarTicketNecesidad();
 	void asignarReceta(cReceta);
